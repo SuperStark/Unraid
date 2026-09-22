@@ -268,10 +268,9 @@ h1 {
     border-radius: 0;
     margin: 0rem 1rem 0rem 1rem;
 }
-logo.angle {
-    -webkit-box-shadow: inset 0px 0px 0px 2px var(--text-color) !important;
-    box-shadow: inset 0px 0px 0px 2px var(--text-color) !important;
-    border-radius: 0px !important;
+/* Hide default Unraid logo */
+.logo.angle {
+    display: none !important;
 }
 #login .error {
     animation-name: shake;
