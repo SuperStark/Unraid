@@ -17,5 +17,5 @@ document.getElementById("login").innerHTML += custom_text_header
 // Replace default Unraid logo with Bees Hive GIF
 let logoContainer = document.querySelector('.logo.angle .wordmark');
 if (logoContainer) {
-    logoContainer.innerHTML = '<img src="https://media.tenor.com/WusSRICR92EAAAAj/bees-hive.gif" alt="Bees Hive" style="height: 115px; width: auto; object-fit: contain;">';
+    logoContainer.innerHTML = '<img src="https://media.tenor.com/WusSRICR92EAAAAj/bees-hive.gif" alt="Bees Hive" style="height: 112px; width: auto; object-fit: contain;">';
 }
