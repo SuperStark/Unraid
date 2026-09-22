@@ -12,3 +12,10 @@ let custom_text_header = `
 /____/\\__/  \\__,_/ /_/    /_/|_|      /_/ /_/_/   |___/  \\___/  </pre> </div>
 `;
 document.getElementById("login").innerHTML += custom_text_header
+
+
+// Replace default Unraid logo with Bees Hive GIF
+let logoContainer = document.querySelector('.logo.angle .wordmark');
+if (logoContainer) {
+    logoContainer.innerHTML = '<img src="https://media.tenor.com/WusSRICR92EAAAAj/bees-hive.gif" alt="Bees Hive" style="height: 55px; width: auto; object-fit: contain;">';
+}
